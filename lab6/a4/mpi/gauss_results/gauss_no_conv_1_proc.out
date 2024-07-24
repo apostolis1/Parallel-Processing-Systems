@@ -1,0 +1,3 @@
+Gauss X 2048 Y 2048 Px 1 Py 1 Iter 256 ComputationTime 12.110549 TotalTime 12.111224 CommunicationTime 0.000376 midpoint 0.849018
+Gauss X 4096 Y 4096 Px 1 Py 1 Iter 256 ComputationTime 48.455714 TotalTime 48.456569 CommunicationTime 0.000448 midpoint 0.900935
+Gauss X 6144 Y 6144 Px 1 Py 1 Iter 256 ComputationTime 108.974295 TotalTime 108.975197 CommunicationTime 0.000457 midpoint 0.942706

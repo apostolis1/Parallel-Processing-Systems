@@ -1,0 +1,2 @@
+gcc -fopenmp -Wall -Wextra -Wno-unused -O3 -c omp_reduction_kmeans_first_touch.c -o omp_reduction_kmeans_first_touch.o
+gcc -fopenmp -Wall -Wextra -Wno-unused -O3 main.o file_io.o util.o omp_reduction_kmeans_first_touch.o -o kmeans_omp_reduction_first_touch -fopenmp -Wall -Wextra -Wno-unused -O3

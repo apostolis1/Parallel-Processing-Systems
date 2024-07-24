@@ -1,0 +1,3 @@
+This contains the answers of copied clusters, without taking into consideration false sharing and first touch policy
+The configuration {256,16,16,10} is used in question 1
+The configuration {256,1,4,10} is used in question 2 to compare after fixing false sharing

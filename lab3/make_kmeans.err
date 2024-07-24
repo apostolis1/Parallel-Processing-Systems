@@ -1,0 +1,2 @@
+Makefile:58: warning: overriding recipe for target 'kmeans_omp_naive'
+Makefile:23: warning: ignoring old recipe for target 'kmeans_omp_naive'

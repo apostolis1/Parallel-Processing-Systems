@@ -1,0 +1,8 @@
+mpi_gauss.c: In function 'main':
+mpi_gauss.c:470:5: warning: 'scattercounts' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     MPI_Gatherv(&u_current[1][1], 1, local_block, &U[0][0], scattercounts, scatteroffset, global_block, 0, CART_COMM);
+     ^
+mpi_gauss.c:470:5: warning: 'scatteroffset' may be used uninitialized in this function [-Wmaybe-uninitialized]
+mpi_gauss.c:151:9: warning: 'U' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         free2d(U);
+         ^

@@ -1,0 +1,2 @@
+This uses a padding of 8 to fix false sharing, so instead of accessing local[k] we access local[8*k]
+
